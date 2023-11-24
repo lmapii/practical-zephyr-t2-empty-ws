@@ -15,3 +15,9 @@ manifest:
       # specify the corresponding branch in the revision:
       # revision: main
       path: deps/utilities/doxygen-awesome-css
+
+    # Dummy shared repository
+    - name: dummy
+      url: git@github.com:lmapii/practical-zephyr-t2-dummy.git
+      revision: main
+      path: shared/dummy
