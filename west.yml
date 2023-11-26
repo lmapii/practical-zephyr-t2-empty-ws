@@ -2,6 +2,9 @@ manifest:
   # minimum west version
   version: 0.8
 
+  self:
+    path: app
+
   projects:
     - name: doxygen-awesome
       url: https://github.com/jothepro/doxygen-awesome-css
